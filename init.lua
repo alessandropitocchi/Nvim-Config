@@ -1,0 +1,5 @@
+require 'opt.options'
+require 'opt.keymaps'
+require 'opt.plugins'
+require 'opt.colorschemes'
+require 'opt.cmp'
