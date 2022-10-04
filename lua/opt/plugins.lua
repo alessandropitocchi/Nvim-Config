@@ -55,11 +55,17 @@ return packer.startup(function(use)
   use( "hrsh7th/cmp-path" )
   use( "hrsh7th/cmp-cmdline" )
   use( "saadparwaiz1/cmp_luasnip" )
-  
+  use( "hrsh7th/cmp-nvim-lsp" )
+  use( "hrsh7th/cmp-nvim-lua" )
+
   -- Snippets
   use( "L3MON4D3/LuaSnip" )
   use( "rafamadriz/friendly-snippets" ) 
-
+  
+  -- LSP
+  use( "neovim/nvim-lspconfig" )
+  use( "williamboman/nvim-lsp-installer" )
+  use( "jose-elias-alvarez/null-ls.nvim" )
   -- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then
