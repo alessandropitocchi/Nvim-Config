@@ -66,6 +66,14 @@ return packer.startup(function(use)
   use( "neovim/nvim-lspconfig" )
   use( "williamboman/nvim-lsp-installer" )
   use( "jose-elias-alvarez/null-ls.nvim" )
+
+  -- Telescope
+  use( "nvim-telescope/telescope.nvim" )
+  use( "nvim-telescope/telescope-media-files.nvim" )
+
+  -- Treesitter
+  use( "nvim-treesitter/nvim-treesitter" )
+
   -- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then
