@@ -27,7 +27,8 @@ keymap("n", "<C-l>", "<C-W>l", opts)
 keymap("n", "<C-w>", "<C-W>w", opts)
 
 -- Folder Tree
-keymap("n","<leader>e", ":Lex 30<cr>", opts)
+keymap("n", "<leader>e", ":NvimTreeOpen <CR>", opts)
+keymap("n", "<leader>w", ":NvimTreeClose <CR>", opts)
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize +2<CR>", opts)

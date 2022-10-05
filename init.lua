@@ -6,3 +6,7 @@ require 'opt.cmp'
 require 'opt.lsp'
 require 'opt.telescope'
 require 'opt.treesitter'
+require 'opt.lualine'
+require 'opt.autopairs'
+require 'opt.nvim-tree'
+

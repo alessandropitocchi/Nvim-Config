@@ -60,8 +60,7 @@ return packer.startup(function(use)
 
   -- Snippets
   use( "L3MON4D3/LuaSnip" )
-  use( "rafamadriz/friendly-snippets" ) 
-  
+  use( "rafamadriz/friendly-snippets" )
   -- LSP
   use( "neovim/nvim-lspconfig" )
   use( "williamboman/nvim-lsp-installer" )
@@ -73,6 +72,12 @@ return packer.startup(function(use)
 
   -- Treesitter
   use( "nvim-treesitter/nvim-treesitter" )
+
+  -- Lualine
+  use( "nvim-lualine/lualine.nvim" )
+
+  -- Nvim-Tree
+  use( "kyazdani42/nvim-tree.lua" )
 
   -- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
