@@ -30,6 +30,9 @@ keymap("n", "<C-w>", "<C-W>w", opts)
 keymap("n", "<leader>e", ":NvimTreeOpen <CR>", opts)
 keymap("n", "<leader>w", ":NvimTreeClose <CR>", opts)
 
+-- Format
+keymap("n", "<leader>n", ":lua vim.lsp.buf.formatting_sync() <CR>", opts)
+
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize +2<CR>", opts)
 keymap("n", "<C-Down>", ":resize -2<CR>", opts)
